@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".view.fragments.QuizScreen">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progress_indicator"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progress="3"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvw_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_background"
+            android:padding="20dp"
+            android:text="Which country has won the most FIFA World Cup titles in men’s soccer?"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:lineSpacingExtra="12sp"
+            android:layout_marginVertical="26dp"
+            tools:targetApi="p" />
+
+        <TextView
+            android:id="@+id/tvw_option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/options_background"
+            android:paddingVertical="20dp"
+            android:paddingStart="30dp"
+            android:text="23"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tvw_option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/options_background"
+            android:paddingVertical="20dp"
+            android:paddingStart="30dp"
+            android:text="14"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tvw_option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/options_background"
+            android:paddingVertical="20dp"
+            android:paddingStart="30dp"
+            android:text="21"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tvw_option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/options_background"
+            android:paddingVertical="20dp"
+            android:paddingStart="30dp"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="20dp"
+            android:background="@drawable/button_background"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="Next"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

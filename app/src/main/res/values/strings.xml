@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuestIQ</string>
+    <string name="categoryName1">Sports</string>
+    <string name="categoryName2">Sports</string>
+    <string name="categoryName3">Sports</string>
+    <string name="categoryName4">Sports</string>
+    <string name="categoryName5">Sports</string>
+    <string name="categoryName6">Sports</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

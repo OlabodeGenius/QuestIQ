@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuestIQ" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSurface">@color/grey</item>
+        <item name="android:colorBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.QuestIQ" parent="Base.Theme.QuestIQ" />
+</resources>
